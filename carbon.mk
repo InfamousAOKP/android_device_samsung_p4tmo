@@ -5,7 +5,7 @@ $(call inherit-product, device/samsung/p4tmo/p4tmo.mk)
 $(call inherit-product, vendor/carbon/config/common_tablet.mk)
 
 # Inherit GSM common stuff
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/carbon/config/common_gsm.mk)
 
 #
 # Setup device specific product configuration.
